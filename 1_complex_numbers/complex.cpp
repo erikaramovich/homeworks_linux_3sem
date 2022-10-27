@@ -9,8 +9,8 @@ Complex::~Complex() {}
 
 // calculating absolute value
 float Complex::abs()const {
-	float x = a*a;
-	float y = b*b;
+	float x = a * a;
+	float y = b * b;
 	x += y;
 
 	return sqrt(x);
@@ -36,7 +36,7 @@ Complex Complex::operator-(const Complex& other) const{
 
 // define *by constant on Complex numbers
 Complex Complex::operator*(float x) const{
-	Complex result(a*x, b*x);
+	Complex result(a * x, b * x);
 	return result;
 }
 
