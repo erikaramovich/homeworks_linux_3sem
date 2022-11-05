@@ -18,7 +18,7 @@ float Complex::abs()const {
 
 // overloading operator<< for Complex objects
 std::ostream& operator<<(std::ostream& out,const Complex& obj){
-	out << obj.a << " + " << obj.b << "i" << std::endl;
+	out << "{" << obj.a << " + " << obj.b << "i}" << std::endl;
 	return out;
 }
 
